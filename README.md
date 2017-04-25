@@ -1,6 +1,6 @@
 # npmtest-gulp-jade-inheritance
 
-#### test coverage for  [gulp-jade-inheritance (v0.5.5)](https://github.com/juanfran/gulp-jade-inheritance)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-jade-inheritance.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-jade-inheritance) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-jade-inheritance.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-jade-inheritance)
+#### basic test coverage for  [gulp-jade-inheritance (v0.5.5)](https://github.com/juanfran/gulp-jade-inheritance)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-jade-inheritance.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-jade-inheritance) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-jade-inheritance.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-jade-inheritance)
 
 #### Rebuild only changed jade files and all it dependencies
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-jade-inheritance/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-jade-inheritance/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-jade-inheritance/build/coverage.html/index.html)
 
@@ -84,7 +84,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.5.5"
+    "version": "0.5.5",
+    "bin": {}
 }
 ```
 
